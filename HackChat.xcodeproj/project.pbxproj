@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		314B83AF79F2A5AB080A0FAB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 314B8B5608F0FA44D09FD3A7 /* ViewController.m */; };
+		314B85047CCEBC39443F9F7E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 314B8D5BE163542072198E0A /* XCTest.framework */; };
+		314B8713AD6FD34D9F4ABC89 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 314B85A75D972BBE558D5B31 /* main.m */; };
+		314B87AAFFB109C844A89176 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 314B8B823C16E0B8B57D6796 /* InfoPlist.strings */; };
+		314B87F332256679754AFD0A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 314B8F9FA6D489B4D3927171 /* CoreGraphics.framework */; };
+		314B8809F6AD99BDAAE102C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 314B8887624CF7DE3C6B719B /* Foundation.framework */; };
+		314B88194EAAB832FA10B381 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 314B8A37D7B591DF5601F33E /* Images.xcassets */; };
+		314B889C6E78FD2B6D19CDD6 /* HackChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 314B882947F786B83EDDBC0A /* HackChatTests.m */; };
+		314B89E40354528D39190055 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 314B8CBE57A2701C292A8DDD /* UIKit.framework */; };
+		314B8A252324452BC26BBD2E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 314B81DCF75E144396EA8B7C /* AppDelegate.m */; };
+		314B8CEC5E3EC1E564512911 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 314B889461DE58E2DF732285 /* InfoPlist.strings */; };
+		314B8CF61D94C4F3707140B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 314B8887624CF7DE3C6B719B /* Foundation.framework */; };
+		314B8DEC6D311A9B89FC3C9F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 314B8CBE57A2701C292A8DDD /* UIKit.framework */; };
+		314B8ED8295D5F5C4FE049E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 314B8D9078DB94431C392873 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		314B858EDA6505AA27AF6E02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 314B86A20887B60E102403B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 314B85BB8048F6034EE536C0;
+			remoteInfo = HackChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		314B80A6F2D53AD6D23ED2F8 /* HackChat-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "HackChat-Info.plist"; sourceTree = "<group>"; };
+		314B80F28A47DC66A76AF0DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		314B81998D873C10F49209E1 /* HackChatTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "HackChatTests-Info.plist"; sourceTree = "<group>"; };
+		314B81DBBFCFE56723EC98FD /* HackChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		314B81DCF75E144396EA8B7C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		314B85A75D972BBE558D5B31 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		314B872F3AA39F87333A036C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		314B882947F786B83EDDBC0A /* HackChatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HackChatTests.m; sourceTree = "<group>"; };
+		314B8887624CF7DE3C6B719B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		314B899F3E566DF3EDAA0BD3 /* HackChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		314B8A37D7B591DF5601F33E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		314B8B5608F0FA44D09FD3A7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		314B8B66B9E686C3D2CE1B84 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		314B8C53E2D5D11868F86767 /* HackChat-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HackChat-Prefix.pch"; sourceTree = "<group>"; };
+		314B8CBE57A2701C292A8DDD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		314B8D5029A5F3628432D316 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		314B8D5BE163542072198E0A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		314B8F9FA6D489B4D3927171 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		314B8FEA44A4A52B41E435BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		314B8E0B0D203FD7B1588818 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				314B8809F6AD99BDAAE102C9 /* Foundation.framework in Frameworks */,
+				314B87F332256679754AFD0A /* CoreGraphics.framework in Frameworks */,
+				314B89E40354528D39190055 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		314B8E862C53ED4114E4B379 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				314B85047CCEBC39443F9F7E /* XCTest.framework in Frameworks */,
+				314B8CF61D94C4F3707140B0 /* Foundation.framework in Frameworks */,
+				314B8DEC6D311A9B89FC3C9F /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		314B8217C44A07E1B5FFFAD9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				314B81998D873C10F49209E1 /* HackChatTests-Info.plist */,
+				314B889461DE58E2DF732285 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		314B87991E2475928D046E65 = {
+			isa = PBXGroup;
+			children = (
+				314B8DC4FE6AC16CE79DBB97 /* Products */,
+				314B8F9B93853EBA3945DCDA /* Frameworks */,
+				314B8B3AE9F2F033E26CA84B /* HackChat */,
+				314B8C424F0D59EADDC3EFCF /* HackChatTests */,
+			);
+			sourceTree = "<group>";
+		};
+		314B89C65148863588A5513B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				314B80A6F2D53AD6D23ED2F8 /* HackChat-Info.plist */,
+				314B8B823C16E0B8B57D6796 /* InfoPlist.strings */,
+				314B85A75D972BBE558D5B31 /* main.m */,
+				314B8C53E2D5D11868F86767 /* HackChat-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		314B8B3AE9F2F033E26CA84B /* HackChat */ = {
+			isa = PBXGroup;
+			children = (
+				314B89C65148863588A5513B /* Supporting Files */,
+				314B80F28A47DC66A76AF0DA /* AppDelegate.h */,
+				314B81DCF75E144396EA8B7C /* AppDelegate.m */,
+				314B8A37D7B591DF5601F33E /* Images.xcassets */,
+				314B8D9078DB94431C392873 /* Main.storyboard */,
+				314B872F3AA39F87333A036C /* ViewController.h */,
+				314B8B5608F0FA44D09FD3A7 /* ViewController.m */,
+			);
+			path = HackChat;
+			sourceTree = "<group>";
+		};
+		314B8C424F0D59EADDC3EFCF /* HackChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				314B8217C44A07E1B5FFFAD9 /* Supporting Files */,
+				314B882947F786B83EDDBC0A /* HackChatTests.m */,
+			);
+			path = HackChatTests;
+			sourceTree = "<group>";
+		};
+		314B8DC4FE6AC16CE79DBB97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				314B81DBBFCFE56723EC98FD /* HackChat.app */,
+				314B899F3E566DF3EDAA0BD3 /* HackChatTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		314B8F9B93853EBA3945DCDA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				314B8887624CF7DE3C6B719B /* Foundation.framework */,
+				314B8F9FA6D489B4D3927171 /* CoreGraphics.framework */,
+				314B8CBE57A2701C292A8DDD /* UIKit.framework */,
+				314B8D5BE163542072198E0A /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		314B85BB8048F6034EE536C0 /* HackChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 314B8A2D9A7CDE937F79428A /* Build configuration list for PBXNativeTarget "HackChat" */;
+			buildPhases = (
+				314B8E0A4DA0A0A06BCEBD0C /* Sources */,
+				314B8E0B0D203FD7B1588818 /* Frameworks */,
+				314B88F55890AB8FEC08CC39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HackChat;
+			productName = HackChat;
+			productReference = 314B81DBBFCFE56723EC98FD /* HackChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		314B8F46A24C1D9507034300 /* HackChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 314B8CBB4D9DFA221D2F82C2 /* Build configuration list for PBXNativeTarget "HackChatTests" */;
+			buildPhases = (
+				314B85109077CB00D9239A74 /* Sources */,
+				314B8E862C53ED4114E4B379 /* Frameworks */,
+				314B80297AB415F20C7357EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				314B8908EEE69FA430A0E8C2 /* PBXTargetDependency */,
+			);
+			name = HackChatTests;
+			productName = HackChatTests;
+			productReference = 314B899F3E566DF3EDAA0BD3 /* HackChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		314B86A20887B60E102403B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Odnoklassniki;
+			};
+			buildConfigurationList = 314B86D87CC493BE069D9E2A /* Build configuration list for PBXProject "HackChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 314B87991E2475928D046E65;
+			productRefGroup = 314B8DC4FE6AC16CE79DBB97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				314B85BB8048F6034EE536C0 /* HackChat */,
+				314B8F46A24C1D9507034300 /* HackChatTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		314B80297AB415F20C7357EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				314B8CEC5E3EC1E564512911 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		314B88F55890AB8FEC08CC39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				314B87AAFFB109C844A89176 /* InfoPlist.strings in Resources */,
+				314B88194EAAB832FA10B381 /* Images.xcassets in Resources */,
+				314B8ED8295D5F5C4FE049E0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		314B85109077CB00D9239A74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				314B889C6E78FD2B6D19CDD6 /* HackChatTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		314B8E0A4DA0A0A06BCEBD0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				314B8713AD6FD34D9F4ABC89 /* main.m in Sources */,
+				314B8A252324452BC26BBD2E /* AppDelegate.m in Sources */,
+				314B83AF79F2A5AB080A0FAB /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		314B8908EEE69FA430A0E8C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 314B85BB8048F6034EE536C0 /* HackChat */;
+			targetProxy = 314B858EDA6505AA27AF6E02 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		314B889461DE58E2DF732285 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				314B8B66B9E686C3D2CE1B84 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		314B8B823C16E0B8B57D6796 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				314B8D5029A5F3628432D316 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		314B8D9078DB94431C392873 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				314B8FEA44A4A52B41E435BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		314B8285DECE62F09BD36A15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		314B845E2324B4E8F2C50512 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HackChat/HackChat-Prefix.pch";
+				INFOPLIST_FILE = "HackChat/HackChat-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		314B84C8B2CB872DBBDF9F3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HackChat/HackChat-Prefix.pch";
+				INFOPLIST_FILE = "HackChatTests/HackChatTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		314B88430ACC0EBE0BB9E016 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		314B8E83FDDAC8492C0C5E8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HackChat/HackChat-Prefix.pch";
+				INFOPLIST_FILE = "HackChatTests/HackChatTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		314B8FE10AE717A21F77FFBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HackChat/HackChat-Prefix.pch";
+				INFOPLIST_FILE = "HackChat/HackChat-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		314B86D87CC493BE069D9E2A /* Build configuration list for PBXProject "HackChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				314B88430ACC0EBE0BB9E016 /* Release */,
+				314B8285DECE62F09BD36A15 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		314B8A2D9A7CDE937F79428A /* Build configuration list for PBXNativeTarget "HackChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				314B8FE10AE717A21F77FFBC /* Release */,
+				314B845E2324B4E8F2C50512 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		314B8CBB4D9DFA221D2F82C2 /* Build configuration list for PBXNativeTarget "HackChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				314B84C8B2CB872DBBDF9F3B /* Release */,
+				314B8E83FDDAC8492C0C5E8B /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 314B86A20887B60E102403B9 /* Project object */;
+}
